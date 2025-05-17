@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Root Studio - Capital Force</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('https://i.imgur.com/GN8U0Zz.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: #000;
+    }
+
+    .window {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #fff;
+      border: 3px solid #c0c0c0;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #e0e0e0;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .header span {
+      font-weight: bold;
+    }
+
+    .exit-button {
+      cursor: pointer;
+      color: #000;
+      text-decoration: underline;
+    }
+
+    .url-bar {
+      background: #fff;
+      border-top: 2px solid #c0c0c0;
+      border-bottom: 2px solid #c0c0c0;
+      padding: 8px;
+      font-family: monospace;
+    }
+
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .text-block {
+      font-size: 14px;
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+
+    .images {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .image-box {
+      background: #000;
+      color: #fff;
+      padding: 40px 10px;
+      flex: 1 1 45%;
+      min-height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 10px;
+      padding: 10px;
+      color: #444;
+      background: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="window">
+    <div class="header">
+      <div>
+        <span>Root Studio</span> apresenta <strong>CAPITAL FORCE</strong>
+      </div>
+      <div>
+        <small>Disponível em breve...</small> |
+        <span class="exit-button" onclick="exitWebsite()">Exit website</span>
+      </div>
+    </div>
+
+    <div class="url-bar">
+      🔒 https://bitly.SeuSite.info.com
+    </div>
+
+    <div class="content">
+      <div class="title">Capital Force - Um FPS Tático para Mobile</div>
+
+      <div class="text-block">
+        Capital Force é um jogo FPS competitivo para mobile, desenvolvido pela Root Studio. Inspirado em jogos como Blood Strike, o foco está na jogabilidade leve e acessível, com modos como Battle Royale, Contra Squad e Treino com bots.
+        <br><br>
+        O jogo é otimizado para celulares fracos, rodando entre 40-60 FPS. Conta com sistema de níveis infinitos, patentes de "Noob" até "Lenda Suprema", passe de batalha com temporadas bimestrais, sistema de amigos e guildas, loja com descontos dinâmicos, e muito mais.
+      </div>
+
+      <div class="images">
+        <div class="image-box">Seu ícone do jogo</div>
+        <div class="image-box">Sua Screenshot do menu do jogo</div>
+        <div class="image-box">Sua Screenshot da partida do jogo</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      © 2025 SeuSiteName. All rights reserved.
+    </div>
+  </div>
+
+  <script>
+    function exitWebsite() {
+      alert("Saindo do site...");
+      window.location.href = "https://www.google.com"; // redirecionamento opcional
+    }
+  </script>
+
+</body>
+</html>
 
